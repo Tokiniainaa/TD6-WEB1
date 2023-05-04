@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+       
 </head>
+
 <body>
     <main>
         <form id="formulaire">
-     <div><span>NOM</span>   <input type="text" id="nom"></div>    
-           <div><span>PRENOM</span> <input type="text" id="prenom"></div>
-           <div><span>SEND</span><button id="cancel">X</button></div> 
+            <h2>LOGIN</h2>
+            <div class="espace">
+                <div class="Jour"><Label>Name</Label><input type="text" id="nom"></div>
+                <div class="Jour"><label for="">Last Name</label> <input type="text" id="prenom"></div>
+                <div class="Jour"><label for="">Email</label><input type="email" id="Email"></div>
+                
+            </div>
+            <div><button id="cancel">Log in</button></div>
+
         </form>
         <button id="button">Register</button>
     </main>
     <script src="index.js"></script>
 </body>
+
 </html>
